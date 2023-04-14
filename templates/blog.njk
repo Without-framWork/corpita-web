@@ -1,0 +1,66 @@
+<html lang="en">
+		<head>
+				<!-- Required meta tags -->
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+				<link rel="stylesheet" type="text/css" href="assets/css/vendor.css">
+				<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+				<title>Hello, world!</title>
+		</head>
+		<body>
+
+				<header class="header header-light">
+
+						{% include "templates/components/header-light.njk" %}
+
+				</header>
+
+				<section class="common-section ">
+						<div class="container">
+								<div class="row">
+
+								{% for i in range(0, 3) -%}
+
+										<div class="col-md-4">
+												<div class="post-item">
+														<figure class="post-thumb">
+																<img src="assets/images/posts/post-01.png" alt="Work 1">
+														</figure>
+														<h4>What is Lorem Ipsum?</h4>
+														<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+												</div>
+										</div>
+										<div class="col-md-4">
+												<div class="post-item">
+														<figure class="post-thumb">
+																<img src="assets/images/posts/post-02.png" alt="Work 1">
+														</figure>
+														<h4>What is Lorem Ipsum?</h4>
+														<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+												</div>
+										</div>
+										<div class="col-md-4">
+												<div class="post-item">
+														<figure class="post-thumb">
+																<img src="assets/images/posts/post-03.png" alt="Work 1">
+														</figure>
+														<h4>What is Lorem Ipsum?</h4>
+														<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+												</div>
+										</div>
+										{%- endfor %}
+
+
+								</div>
+						</div>
+				</section>
+				
+				{% include "templates/components/footer.njk" %} 
+
+				<script src="assets/js/vendor.js"></script>
+				<script src="assets/js/main.js"></script>
+				<script src="assets/js/typescript_demo.js"></script>
+		</body>
+</html>

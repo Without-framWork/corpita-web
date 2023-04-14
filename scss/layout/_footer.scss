@@ -1,0 +1,51 @@
+#footer{
+
+	.footer-content{
+		padding: 60px 0;
+
+	}
+	h5{
+		margin-bottom: 20px;
+	}
+}
+
+.footer-links{
+	padding: 0;
+	list-style: none;
+	li{
+		line-height: 30px;
+	}
+	a{
+		color: #001560;
+		font-size: 14px;
+	}
+
+}
+
+.social-links{
+	padding: 0;
+	li{
+		display: inline-block;
+	}
+	a{
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		border-radius: 20px;
+		border: 1px solid #001560;
+	}
+}
+
+.footer-about{
+	.logo-footer{
+		margin-bottom: 30px;
+	}
+	p{
+		margin-bottom: 30px;
+	}
+}
+
+.copyright{
+	text-align: center;
+}
+

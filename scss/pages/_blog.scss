@@ -1,0 +1,56 @@
+.single-post{
+	margin-top: 150px;
+
+
+	.post-thumb{
+		margin-bottom: 50px;
+	}
+	.post-info{
+		margin-bottom: 50px;
+	}
+
+	h1{
+		margin-bottom: 10px;
+		line-height: 1.5em;
+	}
+
+	h2,h3,h4,h5,h6{
+		margin-top: 50px;
+		margin-bottom: 20px;
+		font-weight: 700;
+		line-height: 1.5em;
+
+	}
+
+	ul{
+		padding-left: 20px;
+		list-style: none;
+		li{
+			position: relative;
+			font-size:18px;
+			line-height: 2em;
+		}
+	}
+
+	ul li:before, div > li:before{
+		background-color: #0a60e8;
+    position: absolute;
+    top: 18px;
+    left: -20px;
+    display: flex;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    transform: translateY(-50%);
+    content: "";
+	}
+
+	.post-content{
+
+	}
+	p{
+		font-size: 18px;
+		margin-bottom: 30px;
+		line-height: 1.8em;
+	}
+}

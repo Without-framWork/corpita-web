@@ -1,0 +1,35 @@
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/vendor.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+        <title>Hello, world!</title>
+    </head>
+    <body>
+			<header class="header header-dark">
+			 
+		   {% include "templates/components/header.njk" %}
+		   {% include "templates/components/hero.njk" %}
+		 	
+			</header>
+		
+			{% include "templates/components/services.njk" %}
+			{% include "templates/components/works.njk" %}
+			{% include "templates/components/action.njk" %}
+			{% include "templates/components/company.njk" %} 
+			{% include "templates/components/posts.njk" %} 
+			{% include "templates/components/footer.njk" %} 
+
+
+        {# <script src="assets/js/vendor.js"></script> #}
+        {# <script src="assets/js/jquery-3.6.0.min.js"></script> #}
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="assets/js/tilt.jquery.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        {# <script src="assets/js/typescript_demo.js"></script> #}
+    </body>
+</html>
